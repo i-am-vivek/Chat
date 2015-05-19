@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule process/(.*) process.php?function=$1 [QSA,L]
